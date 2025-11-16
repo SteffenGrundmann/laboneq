@@ -148,7 +148,7 @@ class OutputSimulator:
             compiled_experiment, max_simulation_length=10e-3
         )
 
-        # Also the maximum output snippet length is configurable, defaulting to 1us
+        # Also the maximum output snippet length is configurable, defaulting to 5us
         output_simulator = OutputSimulator(compiled_experiment, max_output_length=5e-6)
 
         # Maximum output length can also be set later
